@@ -1,0 +1,15 @@
+ECMAScript 2015 aka ES6 was the second major revision to JavaScript.
+
+There are many new features introduced
+
+-> Arrow functions
+-> Classes
+-> Constants and block-scoped variable declarations
+-> Default function parameters
+-> Object destructuring
+-> Object literal shorthands
+-> Promises
+-> String functions (Searching and templates)
+-> Rest/Spread
+
+
