@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- External CSS file -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Title of our page -->
+    <title>Add User List</title>
+</head>
+<body>
+    <!-- Heading for the webpage -->
+    <h1>User List</h1>
+
+    <!-- Div that contains input field and add Span that works as button -->
+    <div class="addPerson">
+        <!-- Taking User's name -->
+        <input type="text" id="personName" class="inputDetail" placeholder="Name">
+
+        <!-- Taking User's name -->
+        <input type="number" id="personAge" class="inputDetail ageBox" placeholder="Age">
+
+        <!-- add button to call a function on click -->
+        <span onclick="addPersonDetail()" class="addBtn">Add &#43;</span>
+    </div>
+
+    <div class="table-container">
+      <table id="userDetailsTable">
+        <tr>
+          <th>Index</th>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Buttons</th>
+        </tr>
+        <tr>
+          <td><p id="index">1</p></td>
+          <td><p id="personNameDisplay"></p></td>
+          <td><p id="personAgeDisplay"></p></td>
+          <td>
+            <div class="modifyDetailsBtn">
+              <button class="update btn">Update &#10226;</button>
+              <button class="remove btn">Remove &#9747;</button>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+    
+
+   
+</body>
+
+    <!-- External Javascript file -->
+    <script src="script.js"></script>
+</html>
