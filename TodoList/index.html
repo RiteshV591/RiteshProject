@@ -3,29 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- External CSS file -->
     <link rel="stylesheet" href="styles.css">
 
-    
+    <!-- Title of our page -->
     <title>To Do List</title>
 </head>
 <body>
+    <!-- Heading for the webpage -->
     <h1>To Do List</h1>
+
+    <!-- Div that contains input field and add Span that works as button -->
     <div class="add-task">
-        <input type="text" id="myInput" class="inputTask" placeholder="Enter Your Task">
+        <!-- input box to take input from user -->
+        <input type="text" id="inputTask" class="inputTask" placeholder="Enter Your Task">
+
+        <!-- add button to call a function on click -->
         <span onclick="newElement()" class="addBtn">Add &#43;</span>
     </div>
 
+    <!-- Div that contains Unorderd list having Dynamic list items inside on function call -->
     <div class="list">
+        <!-- Unorderd list to show the tasks -->
         <ul id="myUL">
-            
-            <!-- <li>Hit the gym</li>
-            <li class="checked">Pay bills</li>
-            <li>Meet George</li>
-            <li>Buy eggs</li>
-            <li>Read a book</li>
-            <li>Organize office</li> -->
+        
         </ul>
     </div>
+
+   
 </body>
+
+    <!-- External Javascript file -->
     <script src="script.js"></script>
 </html>
